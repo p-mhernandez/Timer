@@ -29,11 +29,11 @@ jobs:
 
     # Configures your CMake project. Be sure the compile_commands.json file is created.
     - name: Configure project
-      run: cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build
+      run: cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B ..
 
     # Builds your CMake project. (This step is optional, as it is not required for code analysis).
     - name: Build project (optional)
-      run: cmake --build build
+      run: cmake --build ..
 
     # Runs code analysis with C/C++test.
     - name: Run C/C++test
@@ -42,7 +42,7 @@ jobs:
       # Optional parameters for 'run-cpptest-action'.
       with:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
-        input: build/compile_commands.json
+        input: compile_commands.json
         # Uncomment if you are using C/C++test 2020.2 to generate a SARIF report:
         # reportFormat: xml,html,custom
         # additionalParams: '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
