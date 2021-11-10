@@ -1,0 +1,11 @@
+#Wed Nov 10 10:19:48 PST 2021
+/Timer//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.c.win32.x86=gcc
+/Timer//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.cpp.win32.x86=g++
+/Timer//com.parasoft.xtest.checkers.api.cpp.options.compiler.family.win32.x86=gcc_7-64
+/Timer//com.parasoft.xtest.checkers.api.cpp.options.compiler.options.win32.x86=${cpptest\:original_options} -DPARASOFT_CPPTEST
+/Timer//com.parasoft.xtest.checkers.api.cpp.options.extractor.id=options_dir_extractor_id
+/Timer//com.parasoft.xtest.checkers.api.cpp.options.linker.command.win32.x86=g++
+/Timer//com.parasoft.xtest.checkers.api.cpp.options.linker.options.win32.x86=${cpptest\:original_options}
+/Timer//com.parasoft.xtest.checkers.api.cpp.options.ode_auto_scan_mode=never
+/Timer//com.parasoft.xtest.checkers.api.cpp.options.ode_options_dir=${resource_loc\:/Timer/cpptestscan.bdf}
+project.path=/Timer
