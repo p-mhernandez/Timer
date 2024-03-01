@@ -1,0 +1,9 @@
+*.bdf
+*.exe
+*.o
+
+.cpptest/.dtp_services_cache
+.cpptest/
+.vscode/
+reports/
+Makefile

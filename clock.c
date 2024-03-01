@@ -10,7 +10,7 @@
 /*
  * Print the current time
  */
-void display_time()
+void display_time(void)
 {
     char buf[BUF_SIZE];
     time_t the_time = time(NULL);
