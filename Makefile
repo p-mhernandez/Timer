@@ -24,4 +24,4 @@ $(EXEC) : $(OBJ)
 	$(CC) $(CFLAGS) $(INCLUDE_FLAGS) -o $@ -c $<
 
 clean:
-	del $(OBJ) $(EXEC)
+	rm $(OBJ) $(EXEC)
