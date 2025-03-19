@@ -54,7 +54,6 @@ jobs:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
         installDir: /opt/parasoft/2024.2s/cpptest
         input: build/compile_commands.json
-        additionalParams: "-module Timer=. " 
   
     # - name: Generating report
     #   run: 'make cpptestcov-report'
