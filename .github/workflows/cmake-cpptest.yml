@@ -34,6 +34,10 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
+    - name: Running setEnvBuilder script 
+      run: C:\Users\mhernandez\Desktop\envVarBuilder.bat
+      shell: cmd
+
     # Configures your CMake project. Be sure the compile_commands.json file is created.
     - name: Configure CMake
       run: cmake -G "Unix Makefiles" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build
