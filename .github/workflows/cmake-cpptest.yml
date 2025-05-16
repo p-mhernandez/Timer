@@ -55,7 +55,7 @@ jobs:
       # Optional parameters for 'run-cpptest-action'.
       with:
         # For CMake-based projects, use a compile_commands.json file as the input for analysis. 
-        installDir: /opt/parasoft/2024.2s/cpptest
+        installDir: E:\ParasoftTools\standard\parasoft_cpptest_standard-2024.2.0\cpptest
         input: build/compile_commands.json
   
     # - name: Generating report
