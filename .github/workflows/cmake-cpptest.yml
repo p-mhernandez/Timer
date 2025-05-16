@@ -40,11 +40,13 @@ jobs:
       shell: cmd
 
     - name: Verify Location First
-      run: ls
+      run: dir
+      shell: cmd
 
     # Builds your CMake project. (This step is optional, as it is not required for code analysis).
     - name: Build project (optional)
       run: cmake --build build
+      shell: cmd
 
     # Runs code analysis with C/C++test.
     - name: Run C/C++test
