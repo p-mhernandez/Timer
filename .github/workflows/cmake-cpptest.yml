@@ -37,6 +37,7 @@ jobs:
     # Configures your CMake project. Be sure the compile_commands.json file is created.
     - name: Configure CMake
       run: cmake -G "Unix Makefiles" -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -S . -B build
+      shell: cmd
 
     - name: Verify Location First
       run: ls
